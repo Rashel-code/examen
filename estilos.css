@@ -1,0 +1,86 @@
+.body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+.container {
+    width: 100%;
+    background-color: rgb(17, 6, 6);
+    height: 100rem;
+    align-content: center;
+    margin: auto;
+    display: flex;
+    
+}
+
+.izquierda {
+    width: 30%;
+
+    background-color: rgb(160, 231, 187);
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+
+}
+
+.derecha {
+    width: 70%;
+    background-color: rgb(208, 250, 230);
+    
+  
+
+}
+
+.registro {
+    color: rgb(3, 3, 3);
+    margin-left: 2rem;
+    margin-top: 2rem;
+    width: 90%;
+    height: 50rem;
+    border: solid white 1px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans',;
+}
+
+#nombre {
+    width: 50%;
+    height: 2rem;
+    border: solid rgb(133, 135, 139) 1px;
+    text-align: center;
+    font-family: Arial;
+}
+
+#guardar {
+    margin-top: 1rem;
+    width: 30%;
+    height: 2rem;
+    border: none;
+    background-color: rgb(12, 114, 231);
+    cursor: pointer;
+    color: white;
+    font-family: Arial;
+}
+
+#guardar:hover {
+    background-color: rgb(25, 39, 99);
+    font-family: Arial;
+}
+#table {
+    color: white;
+    margin: auto;
+}
+
+th {
+    border: 1px solid rgb(248, 248, 248);
+    background-color: rgb(8, 88, 134);
+    padding: 5px;
+    width: 7rem;
+    
+}
+td {
+    color: rgb(1, 8, 14);
+    text-align: center;
+    border: solid white 1px;
+}
